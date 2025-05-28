@@ -1,4 +1,4 @@
-# War-Emblem
+# War Emblem Strategy Game
 
 Turn-based RPG battle game with units, maps and combat.
 
