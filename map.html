@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteRaw RPG Unit Placer</title>
+    <link rel="stylesheet" href="map.css"/> 
+</head>
+<body>
+    <h1>SiteRaw RPG Unit Placer</h1>
+    <div id="gameContainer">
+        <div id="controls">
+            <div id="unitSelection">
+                <h3>Select Unit</h3>
+                <div id="unitList"></div>
+            </div>
+            <div id="teamSelection">
+                <h3>Select Team</h3>
+                <label><input type="radio" name="team" value="0" checked> Player (Blue)</label>
+                <label><input type="radio" name="team" value="1"> AI (Red)</label>
+                <label><input type="radio" name="team" value="2"> Obstacle (Green)</label>
+            </div>
+            <div id="unitValues">
+            </div>
+        </div>
+        <div id="mapContainer">
+            <img id="mapImage" src="" alt="Game Map">
+            <div id="gridOverlay"></div>
+        </div>
+        <h3>Unit Placement Output</h3>
+        <textarea id="output"></textarea>
+<div id="pointCounter">
+    Team Points: <span id="playerPoints">0</span> (Player) | <span id="aiPoints">0</span> (AI)
+</div>
+        <textarea id="obstacles"></textarea>
+        <button id="loadButton" onclick="loadButton()">Load Data</button>
+<div id="infoBox"></div>
+    </div>
+
+    <script src="js/units.js"></script>
+    <script src="js/map.js"></script>
+    <script>
+        // Start the application
+        init();
+    </script>
+</body>
+</html>
