@@ -6,8 +6,8 @@ Bestial Elites,hmauler.png,false,5,22,6,2,4,,,[Bestial Halberd],[Bestial Elites]
 Bestial Marauders,hhalberd.png,false,10,9,6,1,5,,,[Bestial Spears],[Spear Wall]
 Centaurs,hlancer.png,false,5,34,10,2,5,,[Centaur Axe],[Centaur Spear],[Centaur Ward]
 Centaur Lord,hcavalier.png,true,1,70,10,4,5,,,[Centaur Greataxe],[Centaur Heal]
-Minautors,wardenforcer.png,false,3,55,6,4,5,,,[Bestial Axes],
-Minautor Lord,wardenlord.png,true,1,170,6,8,5,,,[Bestial Greataxe],[Bestial Counter]
+Minotaurs,wardenforcer.png,false,3,55,6,4,5,,,[Bestial Axes],
+Minotaur Lord,wardenlord.png,true,1,170,6,8,5,,,[Bestial Greataxe],[Bestial Counter]
 Dragon Lord,dragonwar.png,true,1,220,8,10,4,,[Dragon Bolt],[Dragon Greataxe],[Centaur Heal]
 Dragon Beasts,dragoninf.png,false,3,67,8,5,4,,,[Dragon Axes],[Spear Wall]
 Bestial Chariot,hdragoon.png,true,1,110,10,7,4,,,[Bestial Lances],
