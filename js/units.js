@@ -71,11 +71,14 @@ Daemon Titan,firedragon.png,true,1,470,8,16,4,,[Daemon Evil],[Daemon Atrocity],[
 `;
 
 const gnollUnits = `
-Gnoll Lord,beastwarlord.png,true,1,80,6,5,4,,,[Gnoll Greatblade],[Bestial Strike]
+Gnoll Warlord,beastlord.png,true,1,180,6,6,4,,[Gnoll Hook],[Gnoll Warblade],[Lantern Mark]
+Gnoll Overseer,beastwarlord.png,true,1,80,6,5,4,,,[Gnoll Greatblade],[Bestial Strike]
+Gnoll Shadowlord,beastarcherlord.png,true,1,120,7,5,5,,[Gnoll Crossbow],[Gnoll Ghostglaive],[Spear Wall]
 Gnoll Raiders,beastraider.png,false,20,8,6,1,5,,,[Gnoll Club],[Centaur Heal]
 Gnoll Elites,beastaxe.png,false,10,12,6,1,4,,,[Gnoll Spear],
+Gnoll Shadows,beastarcher.png,false,10,13,7,5,5,,[Gnoll Ghostbow],[Gnoll Ghostblades],[Bestial Elites]
 Gnoll Mutilators,beastking.png,false,5,20,5,2,3,,,[Gnoll Waraxes],
-Gnoll Darkspawn,beastlord.png,false,5,56,5,3,3,,,[Gnoll Scythes],
+Gnoll Darkspawn,beastelite.png,false,5,56,5,3,3,,,[Gnoll Scythes],
 Gnoll Cannon,beastrider.png,false,3,57,6,3,6,,[Gnoll Cannon],[Gnoll Club],
 Gnoll Catapult,beastriderlord.png,true,1,120,4,8,4,,[Gnoll Catapult],[Gnoll Club],[Catapult Mark]
 Gnoll Monstrosity,ghoul.png,true,1,130,9,7,4,,[Gnoll Javelin],[Gnoll Halberd],
@@ -281,6 +284,12 @@ Gnoll Javelin,5,7,5,3,1,1,[2d6_attacks;lethal]
 Gnoll Halberd,1,10,3,4,1,1,[d3_damage]
 Gnoll Waraxes,1,2,3,3,1,1,[lethal;charge]
 Gnoll Scythes,1,3,3,3,1,2,[impale;charge]
+Gnoll Crossbow,5,5,3,4,0,1,[lethal;d3_damage]
+Gnoll Ghostglaive,1,3,3,3,1,1,[impale;d3_damage;penetration_single]
+Gnoll Ghostbow,5,2,4,4,0,1,[lethal]
+Gnoll Ghostblades,1,2,4,5,0,1,[impale]
+Gnoll Hook,5,2,3,3,2,1,[lethal;d3_damage]
+Gnoll Warblade,1,5,3,3,2,2,[impale]
 Gnoll Fellgaze,4,1,3,5,4,1,[enemy_attacks]
 Gnoll Fellteeth,1,13,4,2,2,2,[penetration_infantry]
 Gnoll Horror,7,7,4,2,1,1,[lethal;penetration_infantry]
