@@ -2,7 +2,7 @@
 
 Turn-based RPG battle game with units, maps and combat.
 
-![Screenshot of War Emblem Strategy Game]([https://myoctocat.com/assets/images/base-octocat.svg](https://raw.githubusercontent.com/SiteRaw/War-Emblem/refs/heads/main/war-emblem-game.png))
+![Screenshot of War Emblem Strategy Game](https://raw.githubusercontent.com/SiteRaw/War-Emblem/refs/heads/main/war-emblem-game.png)
 
 Map editor: 100%
 Unit editor: 99%
