@@ -128,7 +128,7 @@ Gargoyle Warlord,grlord.png,true,1,200,12,10,5,,,[Gargoyle Talons],[Centaur Heal
 Gargoyle Raiders,grburner.png,false,5,38,12,4,5,,,[Gargoyle Halberds],
 Sky Vanguards,gryphonlord.png,false,5,28,12,3,5,,,[Sky Claws],
 Sky Reapers,gryphon.png,false,5,18,12,2,5,,,[Sky Sickles],
-Dragon Cultists,grharrier.png,false,10,100,6,1,6,,,[Cultist Blades],
+Dragon Cultists,grharrier.png,false,10,10,6,1,6,,,[Cultist Blades],
 Air Elementals,wrspirit.png,false,3,50,5,3,3,,,[Elemental Pierce],
 Elder Dragonlord,firedragon.png,true,1,420,12,16,4,,,[Elder Maw],[Necromancer Mark]
 `;
