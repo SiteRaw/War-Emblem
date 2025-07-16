@@ -150,6 +150,9 @@ Cyclopes,nmyrm.png,true,1,150,12,8,5,,[Cyclopes Gaze],[Cyclopes Claws],
 Dwarf Lord,dwarf.png,true,1,90,5,5,5,,,[Dwarf Hammer],
 Valaraukar,wyvernlord.png,true,1,450,5,18,4,,[Balrog Flail],[Balrog Sword],[Gnoll Heal;Centaur Heal;Balrog Mark]
 Witchking,wrspirit.png,true,1,990,10,30,3,,[Dark Sorcery],[Morgul Blade],[Centaur Heal;Bestial Counter]
+Akyhlios,water.png,true,1,490,10,16,3,,[Water Harpoon],[Water Spear],[]
+Mumak,wyvernlord.png,true,1,180,8,14,4,,[Mumak Bows],[Mumak Charge],[]
+Oliphant,nmyrm.png,true,1,240,5,12,2,,[Oliphant Harpoon],[Oliphant Tusk],[]
 `;
 
 const unitTypesCSV = `
@@ -319,6 +322,12 @@ Orc Meatchains,1,6,4,3,1,1,[penetration_infantry;penetration_charge]
 Orc Meatcleaver,1,8,4,2,1,2,[]
 Orc Manslicer,1,4,4,4,1,1,[impale;d3_damage]
 Orc Meatlance,1,6,4,3,0,1,[centaur_charge]
+Water Harpoon,18,4,3,2,1,3,[penetration_single]
+Water Spear,1,8,4,2,2,3,[impale]
+Mumak Bows,10,1,3,2,0,1,[2d6_attacks;critical;penetration_infantry]
+Mumak Charge,1,6,4,2,1,2,[centaur_charge]
+Oliphant Harpoon,18,4,3,3,2,3,[critical]
+Oliphant Tusk,1,3,3,3,1,1,[d3_damage]
 `;
 
 function parseCSV(csvText) {
